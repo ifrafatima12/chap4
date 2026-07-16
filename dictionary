@@ -1,0 +1,11 @@
+student = {
+    "name": "ifra fatima",
+    "subject": {
+        "phy": 32,
+        "chem": 35,
+        "Maths": 86,
+    }
+}
+
+print(student.items())
+
