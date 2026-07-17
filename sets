@@ -1,0 +1,6 @@
+#there are different functions that can be performed in a code using sets
+#sets are represented using ()
+set = set( )
+set = set.add(1)
+print(set)
+

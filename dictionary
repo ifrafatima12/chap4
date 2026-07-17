@@ -7,5 +7,7 @@ student = {
     }
 }
 
-print(student.items())
+print(list(student.items()))
+student.update({"city" : "Karachi"})
+print(list(student.items()))
 
