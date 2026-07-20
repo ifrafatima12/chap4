@@ -1,0 +1,24 @@
+#dictionary methods 
+student = {"name": "Ali", "age": 18}
+
+print(student.get("name"))      # Ali
+print(student.keys())           # dict_keys(['name', 'age'])
+
+student.update({"age": 19})
+print(student)                  # {'name': 'Ali', 'age': 19}
+
+student.pop("age")
+print(student)                  # {'name': 'Ali'}
+
+
+#performing set operations
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+print(A.union(B))                  # {1, 2, 3, 4, 5}
+print(A.intersection(B))           # {3}
+print(A.difference(B))             # {1, 2}
+print(A.symmetric_difference(B))   # {1, 2, 4, 5}
+
+A.add(6)
+print(A)                           # {1, 2, 3, 6}
